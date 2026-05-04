@@ -1,4 +1,4 @@
-# TAP - From Old Threading Habits to Modern .NET 8 APIs with 
+# From Old Threading Habits to Modern .NET 8 APIs with TAP
 
 When developers move from older .NET code to modern ASP.NET Core, the biggest shift is not just syntax. It is a change in **how work is modeled**: old code often blocks threads and mixes sync and async, while modern .NET 8 uses the Task-based Asynchronous Pattern (TAP) to keep request handling scalable and predictable. Microsoft recommends making controller actions asynchronous, keeping the entire call stack asynchronous, and avoiding blocking calls where async APIs exist.
 
